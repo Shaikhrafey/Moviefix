@@ -1,0 +1,33 @@
+/* we are not using this module, for nav bar we are using styled-components */
+
+.navbar{
+    height: 9vh;
+    /* background: linear-gradient(70deg, rgb(221, 60, 39), rgb(38, 66, 157)); */
+    background: linear-gradient(45deg,red,blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    margin-left:30px ;
+    padding: 20px;
+    color: white;
+}
+
+.cart{
+    margin-right:30px;
+    padding:10px;
+}
+
+.cart img{
+    width:30px;
+    height: 30px;
+    color:white;
+}
+
+.cartCount{
+    color:white;
+    font-size:1.2rem;
+}
+
